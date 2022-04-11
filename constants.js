@@ -1,0 +1,64 @@
+module.exports = {
+  CRYPTO_API: {
+    BASE_URL: "https://pacific-waters-19946.herokuapp.com",
+    CRYPTO_PATH: "/v2/assets",
+    EXCHANGE_PATH: "/v2/exchanges",
+  },
+
+  LOADING: "Loading...",
+
+  CRYPTO_DATA_SYMBOLS: {
+    name: "",
+    priceUsd: "$",
+    marketCapUsd: "$",
+    volumeUsd24Hr: "$",
+    changePercent24Hr: "%",
+  },
+  CRYPTO_DATA_PRECISIONS: {
+    priceUsd: 3,
+    marketCapUsd: 2,
+    volumeUsd24Hr: 2,
+    changePercent24Hr: 2,
+  },
+
+  TRENDING_LISTING: {
+    fetchErrorMessage: "There is an problem occured. Please try again later.",
+  },
+  EXCHANGES: {
+    fetchErrorMessage: "There is an problem occured. Please try again later.",
+  },
+  PORTFOLIO: {
+    fetchErrorMessage: "You don't have any crypto currency in your portfolio.",
+  },
+  SEARCH_RESULT: {
+    fetchErrorMessage: "You don't have any crypto currency in your portfolio.",
+  },
+  CRYPTO_TABLE_TITLE: ["Name", "Price", "Market Cap", "Volume (24Hr)", "Change (24Hr)", "My Portfolio"],
+  CRYPTO_TABLE_DATA_FIELDS: {
+    NAME: "name",
+    PRICE: "priceUsd",
+    marketCap: "marketCapUsd",
+    volume: "volumeUsd24Hr",
+    changePercent: "changePercent24Hr",
+  },
+  EXCHANGE_TABLE_TITLE: ["Name", "Trading Pairs", "Volume (24Hr)", "Total (%)"],
+  EXCHANGE_TABLE_DATA_FIELDS: {
+    NAME: "name",
+    TRADING_PAIRS: "tradingPairs",
+    VOLUME: "volumeUsd",
+    PERCENT_TOTAL_VOLUME: "percentTotalVolume",
+  },
+
+  EXCHANGE_DATA_SYMBOLS: {
+    name: "",
+    tradingPairs: "",
+    volumeUsd: "$",
+    percentTotalVolume: "%",
+  },
+  EXCHANGE_DATA_PRECISIONS: {
+    volumeUsd: 3,
+    percentTotalVolume: 2,
+  },
+
+      CRYPTO_PORTFOLIO: "crypto_portfolio",
+};
